@@ -1,0 +1,117 @@
+/*- Custom style -*/
+
+// -- Put custom style under this point -- //
+
+html {
+
+	/* IE10+ */ 
+	background-image: -ms-linear-gradient(top, rgba(255,212,125,1) 0%, rgba(255,212,125,1) 40%, rgba(116,56,255,1) 80%, rgba(116,56,255,1) 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, rgba(255,212,125,1) 0%, rgba(255,212,125,1) 40%, rgba(116,56,255,1) 80%, rgba(116,56,255,1) 100%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, rgba(255,212,125,1) 0%, rgba(255,212,125,1) 40%, rgba(116,56,255,1) 80%, rgba(116,56,255,1) 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255,212,125,1)), color-stop(40, rgba(255,212,125,1)), color-stop(80, rgba(116,56,255,1)), color-stop(100, rgba(116,56,255,1)));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, rgba(255,212,125,1) 0%, rgba(255,212,125,1) 40%, rgba(116,56,255,1) 80%, rgba(116,56,255,1) 100%);
+
+	/* W3C Markup */ 
+	background-image: linear-gradient(to bottom, rgba(255,212,125,1) 0%, rgba(255,212,125,1) 40%, rgba(116,56,255,1) 80%, rgba(116,56,255,1) 100%);
+
+	background-repeat: no-repeat;
+	/*
+	background-color: rgba(255,212,125,1);
+	height: 100%;
+	background-position: 0 600px;
+	*/
+
+
+	font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+		
+		height: 100%;
+}
+
+#header {
+	border: 0px;
+}
+
+.project {
+	p {
+		width: 50%;
+		display: inline-block;
+		vertical-align: top;
+		padding: 0 1em;
+	}
+	.project-image {
+		/*
+		float: right;
+		padding-left: 1.12em;
+		*/
+		width: 48%;
+		clear: right;
+		display: inline-block;
+
+	}
+
+	h2 {
+		padding: 10px 0;
+	}
+
+	.link {
+		text-decoration: underline;
+	}
+}
+
+
+
+h1, h2, h3 {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+#header {
+	h1, h3 {
+		display: inline-block;
+	}
+	h3 {
+		font-size: 0.9em;
+		font-family: 'Roboto', sans-serif;
+		margin: 3px 10px;
+	}
+}
+
+footer {
+	background-color: inherit;
+	a {
+		color: #111;
+	}
+}
+
+@media (max-width: 940px) {
+	h2 {
+		font-size: 1.45em;
+	}
+	.project {
+		p {
+			width: 100%;
+			
+		}
+		.project-image {
+			
+			width: 100%;
+			padding: 10px;
+		}
+
+
+	}
+	#header h3 {
+		font-size: 0.85em;
+	}
+}
