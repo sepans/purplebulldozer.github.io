@@ -5,22 +5,22 @@
 html {
 
 	/* IE10+ */ 
-	background-image: -ms-linear-gradient(top, rgba(255,212,125,1) 0%, rgba(255,212,125,1) 40%, rgba(116,56,255,1) 80%, rgba(116,56,255,1) 100%);
+	background-image: -ms-linear-gradient(top, rgba(255,212,125,0.7) 0%, rgba(255,212,125,0.1) 0%, rgba(116,56,255,0.1) 70%, rgba(116,56,255,0.7) 100%);
 
 	/* Mozilla Firefox */ 
-	background-image: -moz-linear-gradient(top, rgba(255,212,125,1) 0%, rgba(255,212,125,1) 40%, rgba(116,56,255,1) 80%, rgba(116,56,255,1) 100%);
+	background-image: -moz-linear-gradient(top, rgba(255,212,125,0.7) 0%, rgba(255,212,125,0.1) 0%, rgba(116,56,255,0.1) 70%, rgba(116,56,255,0.7) 100%);
 
 	/* Opera */ 
-	background-image: -o-linear-gradient(top, rgba(255,212,125,1) 0%, rgba(255,212,125,1) 40%, rgba(116,56,255,1) 80%, rgba(116,56,255,1) 100%);
+	background-image: -o-linear-gradient(top, rgba(255,212,125,0.7) 0%, rgba(255,212,125,0.1) 0%, rgba(116,56,255,0.1) 70%, rgba(116,56,255,0.7) 100%);
 
 	/* Webkit (Safari/Chrome 10) */ 
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255,212,125,1)), color-stop(40, rgba(255,212,125,1)), color-stop(80, rgba(116,56,255,1)), color-stop(100, rgba(116,56,255,1)));
 
 	/* Webkit (Chrome 11+) */ 
-	background-image: -webkit-linear-gradient(top, rgba(255,212,125,1) 0%, rgba(255,212,125,1) 40%, rgba(116,56,255,1) 80%, rgba(116,56,255,1) 100%);
+	background-image: -webkit-linear-gradient(top, rgba(255,212,125,0.7) 0%, rgba(255,212,125,0.1) 0%, rgba(116,56,255,0.1) 70%, rgba(116,56,255,0.7) 100%);
 
 	/* W3C Markup */ 
-	background-image: linear-gradient(to bottom, rgba(255,212,125,1) 0%, rgba(255,212,125,1) 40%, rgba(116,56,255,1) 80%, rgba(116,56,255,1) 100%);
+	background-image: linear-gradient(to bottom, rgba(255,212,125,0.7) 0%, rgba(255,212,125,0.1) 40%, rgba(116,56,255,0.1) 70%, rgba(116,56,255,0.7) 100%);
 
 	background-repeat: no-repeat;
 	/*
