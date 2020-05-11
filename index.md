@@ -18,9 +18,9 @@ description: Purple Bulldozer, a design, prototyping and data visualization stud
 <div class="project">
 
 	<h2>CTZN</h2>
-	<img class="project-image" src="https://user-images.githubusercontent.com/687513/81587682-fa224880-937c-11ea-9be5-c931a6834aa8.png" alt="ctzn">
+	<img class="project-image" src="https://user-images.githubusercontent.com/687513/81590005-c3016680-937f-11ea-8b76-50590f07cbbd.png" alt="ctzn">
 	<p>
-		A reusable tool to explore candidate's position to find the best match. <a href="http://www.ctzen.info/" class="link" target="_blank">Link</a>
+		A reusable tool to explore candidate's position to find the best match. WIP: <a href="http://www.ctzen.info/" class="link" target="_blank">Link</a>
 	</p>
 </div>
 
